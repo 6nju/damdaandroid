@@ -1,0 +1,25 @@
+{
+  "name": "RNKakaoLogin",
+  "version": "2.2.1",
+  "summary": "Kakao login module(package) for React Native",
+  "requires_arc": true,
+  "license": "MIT",
+  "homepage": "n/a",
+  "authors": {
+    "jeffgukang": ""
+  },
+  "source": {
+    "git": "https://github.com/JeffGuKang/react-native-kakao-login",
+    "tag": "v#{version}"
+  },
+  "source_files": "ios/ReactNativekakao/*.{h,m}",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_frameworks": "ios/KakaoOpenSDK.framework",
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  }
+}
